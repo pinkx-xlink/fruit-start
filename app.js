@@ -27,5 +27,10 @@ function checkZIP() {
             "Netherland ZIPs must have exactly 4 digits, followed by 2 letters except SA, SD, and SS",
         ],
     };
-    
+
+    //read country id
+    const country =
+document.getElementById("Country").value;
+
+
 }
