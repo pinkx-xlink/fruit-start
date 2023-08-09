@@ -1,9 +1,9 @@
-const email = document.getElementById("email");
+const email = document.getElementById("t2");
 
 email.addEventListener("input", (event) => {
     if (email.validity.typeMismatch) {
         email.setCustomValidity("I wanted an EMAIL, silly!");
-    }else{ 
-        email.setCustomValidity("")
+    } else { 
+        email.setCustomValidity("");
     } 
 });
