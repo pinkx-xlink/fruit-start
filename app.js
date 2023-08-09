@@ -22,6 +22,10 @@ function checkZIP() {
             "^(D-)?\\d{5}$",
             "Germany ZIPs must have exactly 5 digits: e.g. D-12345 or 12345",
         ],
-        
-    }
+        n1: [
+            "^(NL-)?\\d{4}\\s*([A-RT-Z][A-Z]|S[BCE-RT-Z])$",
+            "Netherland ZIPs must have exactly 4 digits, followed by 2 letters except SA, SD, and SS",
+        ],
+    };
+    
 }
