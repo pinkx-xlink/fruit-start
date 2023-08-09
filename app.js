@@ -10,6 +10,10 @@ email.addEventListener("input", (event) => {
 
 function checkZIP() {
     const constraints = {
+        ch: [
+            "^(CH-)?\\d{4}$",
+            "Switzerland ZIPs must have exactly 4 digits: e.g. CH-1950 or 1950",
+        ],
         
     }
 }
