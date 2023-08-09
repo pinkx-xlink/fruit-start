@@ -33,7 +33,8 @@ function checkZIP() {
 document.getElementById("Country").value;
 
 //get NPA field
-const ZIPfield = document.getElementById("ZIP");
+    const ZIPfield = document.getElementById("ZIP");
 
-
+    const constraint = new RegExp(constraints[country][0], "");
+    console.log(constraint);
 }
