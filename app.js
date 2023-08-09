@@ -38,4 +38,12 @@ document.getElementById("Country").value;
     //constraint checker
     const constraint = new RegExp(constraints[country][0], "");
     console.log(constraint);
+
+    //check!
+    if (constraint.test(ZIPField.value)) {
+        ZIPField.setCustomValidity("");
+    } else {
+    ZIPField.setCustomValidity(constraint[country][1]);
+    }
+    }
 }
