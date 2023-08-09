@@ -45,5 +45,10 @@ document.getElementById("Country").value;
     } else {
     ZIPField.setCustomValidity(constraint[country][1]);
     }
-    }
+    // }
 }
+
+window.onload = () => {
+    document.getElementById("Country").onchange = checkZIP;
+    document.getElementById("ZIP").oninput = checkZIP;
+};
