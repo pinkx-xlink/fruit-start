@@ -7,3 +7,9 @@ email.addEventListener("input", (event) => {
         email.setCustomValidity("");
     } 
 });
+
+function checkZIP() {
+    const constraints = {
+        
+    }
+}
